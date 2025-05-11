@@ -250,3 +250,127 @@ hr {
   padding-right:60px ;
   margin-left:8px ;
 }
+.contact {
+  padding: 50px;
+  background-color: #f4f6f9;
+}
+
+.contact h2 {
+  font-size: 35px;
+  position: relative;
+}
+
+.contact h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background-color: #3399ff;
+  border-radius: 2px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.contact form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #3399ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.portfolio {
+  padding: 50px;
+  background-color: #f4f6f9;
+}
+
+.portfolio h2 {
+  font-size: 35px;
+  position: relative;
+}
+
+.portfolio h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background-color: #3399ff;
+  border-radius: 2px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  padding-bottom: 20px;
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  margin: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.project-card p {
+  margin: 0 15px 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #3399ff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.project-card a:hover {
+  background-color: #2277cc;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+

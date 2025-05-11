@@ -195,3 +195,58 @@ body{
     font-size: 30px;
     color: cornflowerblue;
 }
+.resume{
+    padding-left: 50px;
+}
+.resume h2{
+    font-size: 35px;
+    display: inline-block;
+    position: relative;
+}
+.resume h2::after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 80%;
+    height: 5px;
+    background:#3399ff;
+    border-radius: 2px;
+}
+.resume-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.resume-section p{
+    font-size: 17px;
+}
+.resume-section table{
+    font-size: 15px;
+    width: 100%;
+    margin: 30px;
+    padding-left: 30px;
+    border-collapse: collapse;
+    overflow: hidden;
+    font-size: large;
+}
+.resume-section table tr{
+    margin: 50px ;
+}
+.resume-section table td span{
+    font-size: 30px;
+    color: cornflowerblue;
+}
+.resume-section h3{
+    font-size: 25px;
+}
+.resume-section h4{
+    font-size: 18px;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: #3399ff;
+  width: 92%; 
+  padding-right:60px ;
+  margin-left:8px ;
+}
